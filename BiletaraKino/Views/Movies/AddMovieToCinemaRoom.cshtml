@@ -1,0 +1,19 @@
+﻿@model BiletaraKino.Models.CinemaRoomMovie
+
+@{
+    ViewBag.Title = "AddMovieToCinemaRoom";
+}
+
+<h2>AddMovieToCinemaRoom</h2>
+
+@using (Html.BeginForm("AddMovieToCinemaRoom", "Movies"))
+{
+    <div class="form-group">
+        @Html.DropDownListFor(m => m.crId, new SelectList(Model.cinemaRooms, "CinemaRoomId", "Name"), new { @class = "form-control" })
+        @Html.HiddenFor(m => m.mId)
+    </div>
+
+    <div class="form-group">
+        <button type="submit">Add Movie to Cinema Room</button>
+    </div>
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiletaraKino", "BiletaraKino\BiletaraKino.csproj", "{86DF0B6B-81A6-401A-A100-E17D6549B048}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86DF0B6B-81A6-401A-A100-E17D6549B048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DF0B6B-81A6-401A-A100-E17D6549B048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DF0B6B-81A6-401A-A100-E17D6549B048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DF0B6B-81A6-401A-A100-E17D6549B048}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1D9017D-C2B0-415B-8A6D-2FA1D33933BB}
+	EndGlobalSection
+EndGlobal
